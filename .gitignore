@@ -1,1 +1,2 @@
-nim_snake.exe
+./nim_snake.exe
+./SDL2.dll
