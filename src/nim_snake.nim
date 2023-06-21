@@ -85,9 +85,11 @@ var game = Snake(
 
 var event = defaultEvent 
 
+
+var direction = none(Direction)
+
 block gameloop:
   while true:
-    var direction = none(Direction)
     while pollEvent(event):
       case event.kind
       of KeyDown:
@@ -111,8 +113,8 @@ block gameloop:
       else:
         discard
 
-      if direction.isSome():
-        game.direction = direction.get()
+    if direction.isSome():
+       game.direction = direction.get()
 
     if game.body.len() > 0:
       discard game.body.pop()
