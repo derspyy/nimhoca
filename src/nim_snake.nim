@@ -85,11 +85,9 @@ var game = Snake(
 
 var event = defaultEvent 
 
-
-var direction = none(Direction)
-
 block gameloop:
   while true:
+    var direction = none(Direction)
     while pollEvent(event):
       case event.kind
       of KeyDown:
