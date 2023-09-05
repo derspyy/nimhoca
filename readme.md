@@ -6,4 +6,4 @@ you need [sdl2](https://wiki.libsdl.org/SDL2/Installation) both for hackin' and 
 
 guide for [nim-lang/sdl2](https://github.com/nim-lang/sdl2) here.
 
-> https://piuvas.net/proj2/ :brazil:
+> https://piuvas.net/minhoca/ :brazil:
